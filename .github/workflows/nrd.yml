@@ -26,6 +26,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/NGROK-US.bat -OutFile NGROK-US.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/install_winrar.bat -OutFile install_winrar.bat
     - name: Installing WinRAR
       run: install_winrar.bat
     - name: Make YML file for NGROK.
