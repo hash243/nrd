@@ -14,6 +14,9 @@ curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercont
 curl -o "C:\Users\Public\Desktop\npp.7.9.4.Installer.x64.exe" https://raw.githubusercontent.com/hash243/nrd/main/Files/npp.7.9.4.Installer.x64.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Everything.exe" https://raw.githubusercontent.com/hash243/nrd/main/Files/Everything.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\BANDIZIP-SETUP.exe" https://raw.githubusercontent.com/hash243/nrd/main/Files/BANDIZIP-SETUP.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\winrar-x64-602.exe" https://raw.githubusercontent.com/hash243/nrd/main/Files/winrar-x64-602.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\rarreg.key" https://raw.githubusercontent.com/hash243/nrd/main/Files/rarreg.key > out.txt 2>&1
+
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul
