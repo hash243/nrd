@@ -5,3 +5,4 @@ curl -o "C:\Users\Public\Desktop\rarreg.key" https://raw.githubusercontent.com/h
 echo Installing WinRAR
 start "" /w "C:\Users\Public\Desktop\winrar-x64-602.exe" /s
 move "C:\Users\Public\Desktop\rarreg.key" "C:\Program Files\WinRAR"
+del "C:\Users\Public\Desktop\winrar-x64-602.exe"
