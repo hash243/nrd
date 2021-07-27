@@ -36,11 +36,11 @@ jobs:
     - name: Installing Jd2
       run: start install_jd.bat
     - name: Installing ffmpeg
-      run: choco install ffmpeg
+      run: choco install --no-progress ffmpeg
     - name: Installing streamlink
-      run: choco install streamlink
+      run: choco install --no-progress streamlink
     - name: Installing youtube-dl
-      run: choco install youtube-dl
+      run: choco install --no-progress youtube-dl
     - name: Installing http-server
       run: npm install --global http-server
     - name: Make YML file for NGROK.
