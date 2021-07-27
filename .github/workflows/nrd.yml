@@ -27,12 +27,9 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/nchk.bat -OutFile NGROK-CHECK.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/lp.bat -OutFile loop.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/install_winrar.bat -OutFile install_winrar.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/install_ovp.bat -OutFile install_ovp.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/install_jd.bat -OutFile install_jd.bat
     - name: Installing WinRAR
       run: start install_winrar.bat
-    - name: Installing OVP
-      run: start install_ovp.bat
     - name: Installing Jd2
       run: start install_jd.bat
     - name: Installing ffmpeg
