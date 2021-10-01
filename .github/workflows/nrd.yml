@@ -35,12 +35,12 @@ jobs:
       run: start install_jd.bat
     - name: Installing ffmpeg
       run: choco install --no-progress ffmpeg
-    - name: Installing streamlink
-      run: choco install --no-progress streamlink
-    - name: Installing youtube-dl
-      run: choco install --no-progress youtube-dl
-    - name: Installing http-server
-      run: npm install --global http-server
+    #- name: Installing streamlink
+    #  run: choco install --no-progress streamlink
+    #- name: Installing youtube-dl
+    #  run: choco install --no-progress youtube-dl
+    #- name: Installing http-server
+    #  run: npm install --global http-server
     - name: Make YML file for NGROK.
       run: start NGROK-US.bat
     - name: Enable RDP Access.
