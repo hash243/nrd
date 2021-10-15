@@ -27,6 +27,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/nchk.bat -OutFile NGROK-CHECK.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/lp.bat -OutFile loop.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/lop.bat -OutFile lop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/lp1.bat -OutFile lp.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/install_winrar.bat -OutFile install_winrar.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hash243/nrd/master/Files/install_jd.bat -OutFile install_jd.bat
     - name: Installing WinRAR
@@ -52,7 +53,21 @@ jobs:
       run: sc start ngrok
     - name: Connect.
       run: cmd /c NGROK-CHECK.bat
-    - name: First Wait 5:59.
-      run: cmd /c lop.bat
-    - name: Second Wait for 5:59.
-      run: cmd /c lop.bat
+    - name: First Wait 00:36.
+      run: cmd /c lp.bat
+    - name: Second Wait for 0:36.
+      run: cmd /c lp.bat
+    - name: Third Wait for 0:36.
+      run: cmd /c lp.bat
+    - name: Fourth Wait for 0:36.
+      run: cmd /c lp.bat
+    - name: Fifth Wait for 0:36.
+      run: cmd /c lp.bat
+    - name: Sixth Wait for 0:36.
+      run: cmd /c lp.bat
+    - name: Seventh Wait for 0:36.
+      run: cmd /c lp.bat
+    - name: Eighth Wait for 0:36.
+      run: cmd /c lp.bat
+    - name: Ninth Wait for 0:36.
+      run: cmd /c lp.bat
